@@ -10,7 +10,7 @@ import UIKit
 
 extension UIBarButtonItem{
     
-    convenience init(title:String="",imageName:String? = nil,target:Any?,action:Selector?) {
+    public convenience init(title:String="",imageName:String? = nil,target:Any?,action:Selector?) {
         let btn = UIButton()
         btn.setTitle(title, for: .normal)
         //文字颜色

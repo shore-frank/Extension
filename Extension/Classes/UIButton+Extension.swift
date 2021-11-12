@@ -10,7 +10,7 @@ import UIKit
 
 extension UIButton {
     
-    convenience init(title:String,titleColor:UIColor,fontSize:CGFloat) {
+    public convenience init(title:String,titleColor:UIColor,fontSize:CGFloat) {
         self.init()
         
         self.setTitle(title, for: .normal)

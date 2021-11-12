@@ -10,7 +10,7 @@ import UIKit
 
 extension UILabel {
     
-    convenience init(title: String,fontSize: CGFloat,textColor: UIColor) {
+    public convenience init(title: String,fontSize: CGFloat,textColor: UIColor) {
         
         self.init()
         
@@ -30,7 +30,7 @@ extension UILabel {
      */
     
     
-    convenience init(title: String,mediumFontSize: CGFloat,textColor: UIColor) {
+    public convenience init(title: String,mediumFontSize: CGFloat,textColor: UIColor) {
         self.init()
         
         self.text = title
@@ -38,7 +38,7 @@ extension UILabel {
         self.textColor = textColor
     }
     
-    convenience init(title: String,boldFontSize: CGFloat,textColor: UIColor) {
+    public convenience init(title: String,boldFontSize: CGFloat,textColor: UIColor) {
         self.init()
         
         self.text = title

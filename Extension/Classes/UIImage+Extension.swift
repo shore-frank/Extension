@@ -29,7 +29,7 @@ extension UIImage{
 
 extension UIImage {
     //类方法
-    class func snapShotCurrentWindow()->(UIImage) {
+    public class func snapShotCurrentWindow()->(UIImage) {
         //截屏方法
         let window = UIApplication.shared.keyWindow!
         //开启图片上下文
